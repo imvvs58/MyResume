@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ATS-Friendly Resume VVS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      body {
+        font-family: Arial, Calibri, Helvetica, Georgia, "Times New Roman",
+          sans-serif;
+        font-size: 12px;
+        line-height: 1.4;
+        color: #333;
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+        margin: 0;
+        padding: 20px;
+        background-color: #f7f7f7;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin-bottom: 5px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+
+      h3 {
+        font-size: 14px;
+      }
+
+      p {
+        margin: 0 0 10px;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      .section {
+        margin: 20px 0; /* Added equal vertical margin */
+      }
+
+      .section-heading {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .experience-item {
+        margin-bottom: 10px;
+      }
+
+      .project-item {
+        margin-bottom: 10px;
+      }
+
+      .skills-list li {
+        padding-left: 20px;
+        position: relative;
+        margin-bottom: 5px;
+      }
+
+      .skills-list li:before {
+        content: "\f058"; /* Unicode character for the checkmark icon */
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-right: 5px;
+      }
+
+      .contact-info {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      /* Example usage of Font Awesome icons */
+      .icon {
+        margin-right: 5px;
+      }
+
+      /* Style for bulleted points */
+      .points-list {
+        margin-left: 0;
+        padding-left: 20px; /* Increase the padding to match the indentation */
+      }
+
+      .points-list li {
+        margin-bottom: 5px;
+        list-style-type: none;
+        text-indent: -15px; /* Adjust the text-indent to match the indentation */
+      }
+
+      .points-list li:before {
+        content: "\f00c"; /* Unicode character for the checked icon */
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 5px;
+      }
+
+      /* Remove underline from links */
+      a {
+        text-decoration: none;
+        color: #4285f4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contact-info">
+      <h1>Vaibhav Vibhav Singh</h1>
+      <p>
+        <i class="fab fa-linkedin icon"></i
+        ><a
+          href="https://www.linkedin.com/in/imvvs58/"
+          target="_blank"
+          >Linkedin</a
+        >
+        | <i class="fab fa-github icon"></i
+        ><a href="https://github.com/imvvs58" target="_blank">Github</a> 
+        <!-- <i class="fas fa-globe icon"></i
+        ><a href="https://nikhil-thakur-portfolio.netlify.app/" target="_blank"
+          >Portfolio</a> -->
+        
+      </p>
+      <p>
+        <i class="fas fa-phone icon"></i>+91-8573007782 |
+        <i class="fas fa-envelope icon"></i
+        ><a href="mailto:vaibhavvsmech18@gmail.com" target="_blank"
+          >vaibhavvsmech18@gmail.com</a
+        >
+        | <i class="fas fa-map-marker-alt icon"></i>Prayagraj, Uttar Pradesh,
+        India
+      </p>
+      <hr />
+    </div>
+
+    <div class="section">
+      <h2>About</h2>
+      <div class="experience-item">
+        Committed and goal-oriented Mechanical Engineering graduate looking to pursue a career in the software engineering domain. Possess good knowledge in Full stack web development. Ability to learn new things quickly and capable of working in a fast-paced and team-driven environment.
+      </div>
+    </div>
+    <div class="section">
+      <h2>Education</h2>
+      <div class="experience-item">
+        <h3>Bachelor of Technology (B. Tech) | 2018 - 2022</h3>
+        <p>Mechanical Engineering</p>
+        <p>Giani Zail Singh Campus College of Engineering and Technology - MRSPTU, Bathinda, Punjab</p>
+      </div> 
+    </div>
+
+    <!-- <div class="section">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Red Hat | Software Engineer Apprentice | Nov 2022 – May 2023</h3>
+        <ul class="points-list">
+          <li>Worked on front-end part of Transfer Partner Data Hub.</li>
+          <li>Created UI's in React, TypeScript, and Patternfly.</li>
+          <li>
+            Collaborated with team members using Git and Jira to organize
+            modifications and complete assigned tasks.
+          </li>
+          <li>
+            Successfully migrated the UI of Project and Product Tab from TPDH to
+            Ecosystem Data Hub, expanding its accessibility to business
+            partners.
+          </li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Infoware Technologies | React Developer | May 2021 – Sept 2021</h3>
+        <ul class="points-list">
+          <li>Developed responsive websites and mobile web apps.</li>
+          <li>
+            Collaborated with team members using Git to track code changes and
+            facilitate project collaboration.
+          </li>
+          <li>
+            Implemented a solution for visualizing and sending daily test report
+            results to team members using HTML, JavaScript, and CSS.
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3>
+          Weather App |
+          <a
+            href="https://imvvs58.github.io/-Weather-Report/"
+            target="_blank"
+            >Live</a
+          >
+          | May 2023
+        </h3>
+        <ul class="points-list">
+          <li>
+            As part of my web development experience, I successfully designed and developed a Weather Report Page using CSS, HTML, and JavaScript.
+          </li>
+          <li>
+            Use API For Real Time Weather-Report. 
+          </li>
+          <li>
+            This project aimed to provide users with real-time weather information in an engaging and user-friendly manner.
+          </li>
+        </ul>
+      </div>
+      <div class="project-item">
+        <h3>
+          Movie Deck|
+          <a
+            href="https://imvvs58.github.io/Movie-Deck/"
+            target="_blank"
+            >Live</a
+          >
+          | June 2023
+        </h3>
+        <ul class="points-list">
+          <li>
+            Use bsic HTML , CSS  &  JAVASCRIPT with API.
+          </li>
+          <li>
+            Search the particular movie and add on favourite movie.
+          </li>
+          <li>
+            Show release date and rating.
+          </li>
+        </ul>
+      </div>
+      <div class="project-item">
+        <h3>
+          University Website |
+          <a href="https://imvvs58.github.io/universitywebsites/" target="_blank">Live</a>
+          | Merch 2023 
+        </h3>
+        <ul class="points-list">
+          <li>
+            Use bsic HTML , CSS.
+          </li>
+          <li>
+            User-friendly online platform for the university, providing essential information and facilitating interaction with students, faculty, and visitors.
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="project-item">
+        <h3>
+          Framer Portfolio |
+          <a href="https://nikhil-thakur-portfolio.netlify.app/" target="_blank"
+            >Live</a
+          >
+          | Oct 2021 – Dec 2021
+        </h3>
+        <ul class="points-list">
+          <li>
+            Built a portfolio website using React JS, Framer Motion, and
+            Sanity.io.
+          </li>
+          <li>
+            Created modern animations with Framer Motion and utilized Sanity.io
+            plugins for backend functionality.
+          </li>
+          <li>Hosted on Netlify.</li>
+        </ul>
+      </div>
+    </div> -->
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <ul class="skills-list">
+        <li>
+          <span style="font-weight: bolder">Programming Languages:</span> JAVA,
+          HTML, CSS, JavaScript.
+        </li>
+        <li>
+          <span style="font-weight: bolder">Technologies/Frameworks:</span>
+          React.js.
+        </li>
+        <li>
+          <span style="font-weight: bolder">Databases:</span> MySQL.
+          
+        </li>
+        <li>
+          <span style="font-weight: bolder"> General:</span> Data Structures
+          Algorithms, Object-Oriented Programming in Java.
+        </li>
+        <li>
+          <span style="font-weight: bolder">Other:</span> Git, GitHub, API.
+      
+        </li>
+        <li>
+          <span style="font-weight: bolder">Code reviews:</span> Experienced in
+          conducting thorough code reviews to ensure code quality and adherence
+          to coding standards.
+        </li>
+        <li>
+          <span style="font-weight: bolder">Quality code:</span> Committed to
+          producing high-quality code with attention to detail and a systematic
+          approach.
+        </li>
+        <li>
+          <span style="font-weight: bolder">Production:</span> Proficient in
+          developing software applications for production environments, ensuring
+          stability and reliability.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Co Curricular Activites</h2>
+      <ul class="skills-list">
+        <li>
+          <span style="font-weight: bolder"></span> 
+          NCC Cadet and holding B and C Certificates (2018-2021).
+        </li>
+        <li>
+          <span style="font-weight: bolder"></span> 
+          
+        </li>
+        <li>
+          <span style="font-weight: bolder"></span> 
+          President at SAE Collegiate Club (2020 - 2021)
+        </li>
+        <li>
+          <span style="font-weight: bolder"></span> 
+          University Coordinator at  Literary Club (2021-2022).
+        </li>
+        <li>
+          <span style="font-weight: bolder"></span> 
+          Central Student council member at university level (2021-2022)
+        </li>
+    </div> 
+  </body>
+</html>
